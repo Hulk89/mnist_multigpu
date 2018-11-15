@@ -1,0 +1,14 @@
+{
+    "config": {
+        "train": {
+            "start_lr":    0.0001,
+            "every_step":  1000,
+            "coefficient": 0.98,
+            "iteration":   12000,
+            "eval_steps":  10
+        },
+        "model": {
+            "dim": 512
+        }
+    }
+}
